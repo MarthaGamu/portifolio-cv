@@ -1,9 +1,10 @@
 import React from "react";
+import "../css/about.css";
 
 function About() {
   return (
     <div className="about_me">
-      <h1>About me</h1>
+      <h1 className="mainHeading">About Me</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

@@ -1,0 +1,19 @@
+/*project styling start here*/
+
+.projects{
+    background-color: black;
+    color:white;
+    
+    
+  } .cardProject > img{
+    width: 500px;
+  
+  }
+  .ProjectWrapper{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: (1,400px);
+    justify-content: center;
+    
+    grid-gap:10px;
+  }

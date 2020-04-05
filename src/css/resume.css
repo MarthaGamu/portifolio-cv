@@ -1,0 +1,76 @@
+/*@font-face {
+  font-family: DancingScript;
+  src: url(../static/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: bodyFont;
+  src: url(../static/NanumMyeongjo-Regular.ttf)
+}*/
+body{
+    font-family: bodyFont;
+    background-color: #000000;
+  }
+
+  
+  @media only screen and (min-width: 992px) {
+      /*Resume Styling*/
+.Resume{
+  
+    color:black;
+   
+   
+  }
+  /*Resume Wrapper*/
+  .resumeWrapper{
+    display :grid;
+    grid-template-columns: repeat(2,450px);
+    grid-template-rows: repeat(2,300px);
+    grid-gap:20px;
+    justify-content: center;
+    padding:10px;
+    
+  
+  }
+  .resumeCard{
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: DancingScript;
+  }
+  .resumeHeader{
+    color: white;
+  }
+  .subtitle{
+    color:#818181;
+  }
+  .year{
+    font-size:26px ;
+    font-weight: 900;
+    color:#ffbd39;
+  }
+  /*End of Resume Styling*/
+  
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  .resume-links{
+    color:#818181;
+   
+  }
+  .resume-para{
+    color:#818181;
+  }
+  .Contact-Submit{
+    margin: 15px;
+    background-color: #f0b236;
+    color:black;
+  border:1px solid #f0b236;
+    width:150px;
+    height: 40px;
+    border-radius: 5%;
+    outline: none;
+    cursor:pointer;
+    margin-left: 700px ;
+  }

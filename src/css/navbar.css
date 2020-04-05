@@ -1,0 +1,99 @@
+
+.header{
+    width:100vw;
+    color:white;
+    display: flex;
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+  }
+  .Hello{
+    color:#ffbd39;
+  }
+  .name{
+    margin-left: 10vw;
+  }
+  nav{
+    padding: 35px;
+    margin-left: 29vw;
+  }
+  ul{
+    list-style-type: none;
+    
+    
+  }
+  .Overlay{
+    margin-top:250px;
+    margin-left: 150px;
+  }
+  .title{
+    color: white;
+    font-size: 50px;
+  
+    
+  }
+  .title:nth-word(2){
+    color:#ffbd39;
+  }
+
+  .inbetween{
+     color:#ffbd39;
+     
+  }
+  .nav-title{
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    border-radius:2em;
+   
+    font-weight: 500;
+  }
+  .works{
+all:unset;
+    display:inline-block;
+    font-size:0.70em;
+    background-color: black;
+    padding: 1.10em 3em;
+    color:white;
+    margin-left: 0.60em;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius:2em;
+    border:0.4px solid white;
+    
+    
+  }
+  .hire{
+    all:unset;
+    display:inline-block;
+    background-color: #ffbd39;
+    color:black;
+    padding: 1.3em 3em;
+    font-size:0.70em;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius:2em;
+    border:0.4px solid black;
+  }
+ /* li{
+    display: inline-block;
+    color:#818181;
+    font-size: 1.5rem;
+    margin-left:2rem ;
+    font-weight: 600;
+  }*/
+  .bg-img{
+    background-image: url(../components/images/child.jpg);
+    background-size: cover;
+    height: 100vh;
+    opacity:0.9;
+  }
+  .Navbar-li{
+    color:white;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+    padding:0px 18px;
+  }
+  

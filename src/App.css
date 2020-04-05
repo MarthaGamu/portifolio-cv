@@ -9,6 +9,9 @@
 
 
 /* Large devices (laptops/desktops, 992px and up) */
+body{
+  background-color: #000000;
+}
 @media only screen and (min-width: 992px) {
   .Container{
    width: 100vw;
@@ -16,25 +19,6 @@
     grid-template-columns: (12,1fr);
     grid-auto-rows:auto;
   }
-.header{
- 
-  color:black;
-  
-  text-align: center;
- 
-}
-ul{
-  list-style-type: none;
-  
-  
-}
-li{
-  display: inline-block;
-  color:green;
-  font-size: 1.5rem;
-  margin-left:2rem ;
-  font-weight: 600;
-}
 
 .name_banner{
   background-color: black;
@@ -42,72 +26,22 @@ li{
   font-size: 50px;
   text-align: center;
 }
-.about_me{
-  background-color: cadetblue;
-  color:white;
-  
-  text-align: center;
-}
-/*Resume Styling*/
-.Resume{
-  background-color: cornsilk;
-  color:black;
- 
-  text-align: center;
-}
-/*Resume Wrapper*/
-.resumeWrapper{
-  display :grid;
-  grid-template-columns: repeat(2,500px);
-  grid-template-rows: repeat(2,400px);
-  grid-gap:10px;
-  justify-content: center;
 
+.mainHeading{
+  color:white;
+  font-size: 50px;
+  text-align: center;
 }
-.resumeCard{
-  background-color: black;
-}
-/*End of Resume Styling*/
-/
 .skills{
   background-color: crimson;
   color:white;
   font-size: 50px;
   text-align: center;
 }
-/*project styling start here*/
 
-.projects{
-  background-color: black;
-  color:white;
-  
-  
-} .cardProject > img{
-  width: 500px;
 
-}
-.ProjectWrapper{
-  display: grid;
-  grid-template-columns: repeat(3,500px);
-  grid-template-rows: (1,400px);
-  justify-content: center;
-  
-  grid-gap:10px;
-}
 
-/*project styling end here*/
-.contact_me{
-  background-color: darkolivegreen;
-  color:white;
-  font-size: 50px;
-  text-align: center;
-}
-.footer{
-  background-color: darkorange;
-  color:white;
-  font-size: 50px;
-  text-align: center;
-}
+
 }
 
  
