@@ -17,18 +17,21 @@ body{
 .Resume{
   
     color:black;
+    
    
-   
+  }
+  .Paragraph{
+    text-align: center;
   }
   /*Resume Wrapper*/
   .resumeWrapper{
     display :grid;
-    grid-template-columns: repeat(2,450px);
+    grid-template-columns: repeat(2,500px);
     grid-template-rows: repeat(2,300px);
     grid-gap:20px;
     justify-content: center;
     padding:10px;
-    
+   
   
   }
   .resumeCard{
@@ -42,6 +45,10 @@ body{
   }
   .subtitle{
     color:#818181;
+  }
+  .Paragraph{
+    color:#818181;
+    font-size: 18px;
   }
   .year{
     font-size:26px ;
@@ -57,6 +64,8 @@ body{
   }
   .resume-links{
     color:#818181;
+    font-size: 18px;
+    
    
   }
   .resume-para{
@@ -64,9 +73,7 @@ body{
   }
   .Contact-Submit{
     margin: 15px;
-    background-color: #f0b236;
-    color:black;
-  border:1px solid #f0b236;
+   
     width:150px;
     height: 40px;
     border-radius: 5%;
@@ -74,3 +81,17 @@ body{
     cursor:pointer;
     margin-left: 700px ;
   }
+  .download{
+    margin:3rem;
+    padding: 1.2em 2em;
+    font-size: 20px;
+    color:black;
+    border:1px solid #f0b236;
+    box-sizing: border-box;
+    background-color: #f0b236;
+    border-radius: 2em;
+  }
+.downloadBtn{
+  text-align:center;
+}
+ 

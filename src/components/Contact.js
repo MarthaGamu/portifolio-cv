@@ -1,6 +1,6 @@
 import React from "react";
 import { Map, GoogleApiWrapper } from "google-maps-react";
-import "../css/contact.css";
+/*import "../css/contact.css";*/
 function Contact() {
   return (
     <div className="contact_me">

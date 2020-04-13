@@ -1,9 +1,14 @@
 import React from "react";
-import "../css/project.css";
+/*import "../css/project.css";*/
 const Projects = ({ projects }) => {
   return (
     <div className="projects">
-      <h1 className="mainHeading">Projects</h1>
+      <h1
+        className="mainHeading"
+        style={{ marginTop: "8vh", marginBottom: "8vh" }}
+      >
+        Projects
+      </h1>
       <div className="ProjectWrapper">
         {projects.map((project) => (
           <div className="cardProject">

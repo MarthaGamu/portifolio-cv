@@ -13,23 +13,24 @@
     justify-content: center;
     align-items: center;
     grid-gap:100px;
-    padding: 20px;
+    padding: 60px;
+    
   }
   .map_form{
     display: grid;
-    grid-template-columns: repeat(2,500px);
-    grid-template-rows: repeat(1,400px);
+    grid-template-columns: repeat(2,600px);
+    grid-template-rows: repeat(1,500px);
     justify-content: center;
     background-color: black;
     
   }
   .map{
     background-color: burlywood;
-    width: 500px;
+    
   }
   .form{
    background-color: white;
-   width: 600px;
+   
   }
   .fas{
     color:#f0b236;

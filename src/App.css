@@ -1,47 +1,128 @@
-/* Extra small devices (phones, 600px and down) */
-/*@media only screen and (max-width: 600px) {...}
+/*Styling header menu*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) {...} */
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-body{
-  background-color: #000000;
-}
-@media only screen and (min-width: 992px) {
-  .Container{
-   width: 100vw;
-    display: grid;
-    grid-template-columns: (12,1fr);
-    grid-auto-rows:auto;
-  }
-
-.name_banner{
-  background-color: black;
-  color:white;
-  font-size: 50px;
-  text-align: center;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 1.3;
 }
 
-.mainHeading{
-  color:white;
-  font-size: 50px;
-  text-align: center;
+.header{
+    display:flex;
+    align-items: center;
+    background-color: #32698b;
+    color:white;
+    border-bottom: 3px solid #00adb3;
+    
 }
-.skills{
-  background-color: crimson;
-  color:white;
-  font-size: 50px;
-  text-align: center;
+.nameTag{
+    flex:1;
+    text-align: center;
+    padding:1rem;
+}
+nav{
+    flex:2;
+    text-transform: uppercase;
+    padding:1rem;
+}
+.Navbar-ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+.bg-img{
+    background-color: #eaeef4/*#f8fdf7*/;
+    border-radius: 2px solid red;
+    
+}
+/*.overlayContainer{
+    width:80%;
+    margin:0 auto;
+}*/
+.Overlay{
+    display: flex;
+    color:black;
+  
 }
 
-
-
-
+.Overlay-Info{
+    flex:1;
+    height: 800px;
+    padding: 10rem 3rem ;
+     margin-left: 3rem;
+    border-radius: 2px solid green;
+  
+   
 }
 
+.Overlay-Image{
+flex:1;
+height: 800px;
  
+}
+.title{
+ padding: 10px;
+ font-size: 3rem;
+color:#0e1f20;
+}
+.nav-title{
+    padding: 10px;
+  font-size: 1.5rem;
+}
+.hire{
+    margin-left: 1rem;
+}
+
+
+.Welcome{
+    padding: 10px;
+    font-size: 1rem;
+}
+.works{
+    all:unset;
+        display:inline-block;
+        font-size:0.70em;
+        background-color: #32698b;
+        padding: 1.10em 3em;
+        color:white;
+        margin-left: 0.60em;
+        font-weight: 600;
+        box-sizing: border-box;
+        text-decoration: none;
+        border-radius:2em;
+        border:0.4px solid white;
+        
+        
+      }
+      .hire{
+        all:unset;
+        display:inline-block;
+        background-color: #00adb3;
+        color:white;
+        padding: 1.3em 3em;
+        font-size:0.70em;
+        font-weight: 600;
+        box-sizing: border-box;
+        border-radius:2em;
+        
+      }
+.buttonWrapper{
+    margin-top:15px;
+}
+.Welcome{
+    color:#32698b;
+    font-size: 1rem;
+}   
+
+@media screen and (min-width:1900px){
+    html{
+        font-size: 20px;
+    }
+   
+    .overlayContainer{
+        width: 65%;
+        margin: 0 auto;
+       
+    }
+}

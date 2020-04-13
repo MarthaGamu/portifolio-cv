@@ -36,19 +36,19 @@ export default {
   ],
   projects: [
     {
-      img: "http://localhost:3000/static/media/projectImg.471e634a.jpg",
+      img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
       information: "hie alex",
       link: "#",
     },
     {
-      img: "http://localhost:3000/static/media/projectImg.471e634a.jpg",
+      img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
       information: "hie alex",
       link: "#",
     },
     {
-      img: "http://localhost:3000/static/media/projectImg.471e634a.jpg",
+      img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
       information: "hie alex",
       link: "#",

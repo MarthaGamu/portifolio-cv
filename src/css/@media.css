@@ -1,0 +1,471 @@
+
+    @media (min-width: 700px) {
+        /*start of Navbar*/
+        .header{
+          width:100vw;
+          color:white;
+          display: flex;
+          background-color: black;
+          
+        }
+        .Hello{
+          color:#ffbd39;
+        }
+        .name{
+          margin-left: 10vw;
+        }
+        nav{
+          padding: 35px;
+          margin-left: 29vw;
+        }
+        ul{
+          list-style-type: none;
+          
+          
+        }
+        .Navbar-ul{
+          visibility: visible;
+      }
+        .Overlay{
+          margin-top:250px;
+          margin-left: 150px;
+        }
+        .title{
+          color: white;
+          font-size: 50px;
+        
+          
+        }
+        .title:nth-word(2){
+          color:#ffbd39;
+        }
+      
+        .inbetween{
+           color:#ffbd39;
+           
+        }
+       
+        .nav-title{
+          color:white;
+          font-size: 2rem;
+          margin-bottom: 30px;
+          border-radius:2em;
+         
+          font-weight: 500;
+        }
+        .works{
+      all:unset;
+          display:inline-block;
+          font-size:0.70em;
+          background-color: black;
+          padding: 1.10em 3em;
+          color:white;
+          margin-left: 0.60em;
+          font-weight: 600;
+          box-sizing: border-box;
+          text-decoration: none;
+          border-radius:2em;
+          border:0.4px solid white;
+          
+          
+        }
+        .hire{
+          all:unset;
+          display:inline-block;
+          background-color: #ffbd39;
+          color:black;
+          padding: 1.3em 3em;
+          font-size:0.70em;
+          font-weight: 600;
+          box-sizing: border-box;
+          border-radius:2em;
+          border:0.4px solid black;
+        }
+       /* li{
+          display: inline-block;
+          color:#818181;
+          font-size: 1.5rem;
+          margin-left:2rem ;
+          font-weight: 600;
+        }*/
+       
+        .Navbar-li{
+          color:white;
+          display: inline-block;
+          font-size: 18px;
+          line-height: 1.8;
+          font-weight: 400;
+          padding:0px 18px;
+        }
+        
+        
+        
+        
+        
+        /*Start of Resume*/
+        .Resume{
+    
+       
+          
+         
+        }
+        .Paragraph{
+          text-align: center;
+        }
+        /*Resume Wrapper*/
+        .resumeWrapper{
+          display :grid;
+          grid-template-columns: repeat(2,500px);
+          grid-template-rows: repeat(2,400px);
+          grid-gap:20px;
+          justify-content: center;
+          padding:10px;
+         
+        
+        }
+        .resumeCard{
+          background-color: #1a1a1a;
+          padding: 1rem;
+          border-radius: 0.5rem;
+          font-family: DancingScript;
+        }
+        .resumeHeader{
+          color: white;
+        }
+        .subtitle{
+          color:#818181;
+        }
+        .Paragraph{
+          color:#818181;
+          font-size: 18px;
+        }
+        .year{
+          font-size:26px ;
+          font-weight: 900;
+          color:#ffbd39;
+        }
+        /*End of Resume Styling*/
+        
+        }
+        ul{
+          padding: 0;
+          margin: 0;
+        }
+        .resume-links{
+          color:#818181;
+          font-size: 18px;
+          
+         
+        }
+        .resume-para{
+          color:#818181;
+        }
+        .Contact-Submit{
+          margin: 15px;
+         
+          width:150px;
+          height: 40px;
+          border-radius: 5%;
+          outline: none;
+          cursor:pointer;
+          margin-left: 700px ;
+        }
+        .download{
+          margin:3rem;
+          padding: 1.2em 2em;
+          font-size: 20px;
+          color:black;
+          border:1px solid #f0b236;
+          box-sizing: border-box;
+          background-color: #f0b236;
+          border-radius: 2em;
+        }
+      .downloadBtn{
+        text-align:center;
+      }
+       /*End of Resume Wrapper*/
+       /*Start of Projects*/
+       .projects{
+        background-color: black;
+        color:white;
+        
+        
+      } .cardProject > img{
+        width: 500px;
+      
+      }
+      .ProjectWrapper{
+        display: grid;
+        grid-template-columns: repeat(3,500px);
+        grid-template-rows: (1,400px);
+        justify-content: center;
+        
+        grid-gap:10px;
+      }
+  /*End of Projects*/    
+    /*Beggining of Contact*/
+    .contact_me{
+      background-color: black;
+      color:white;
+      margin-bottom: 20px;
+      
+      text-align: center;
+    }
+    .contactLogs{
+      display:grid;
+      grid-template-columns: repeat(3,200px);
+      grid-template-rows: repeat(1,100px);
+      justify-content: center;
+      align-items: center;
+      grid-gap:100px;
+      padding: 60px;
+      
+    }
+    .map_form{
+      display: grid;
+      grid-template-columns: repeat(2,600px);
+      grid-template-rows: repeat(1,500px);
+      justify-content: center;
+      background-color: black;
+      
+    }
+    .map{
+      background-color: burlywood;
+      
+    }
+    .form{
+     background-color: white;
+     
+    }
+    .fas{
+      color:#f0b236;
+      font-size: 50px;
+    }
+    input{
+      width:300px;
+      padding: 15px;
+      margin-top: 15px;
+    }
+    textarea{
+      margin-top: 15px;
+    }
+    .submit{
+      margin: 15px;
+      background-color: #f0b236;
+      color:black;
+    border:1px solid #f0b236;
+      width:150px;
+      height: 40px;
+      border-radius: 5%;
+      outline: none;
+      cursor:pointer;
+    }
+  
+    /*End of Contact*/
+    /* phone*/
+    body{
+      margin:0;
+      font-family: sans-serif;
+      background:black;
+      box-sizing: border-box;
+     
+      text-align: center;
+      color:white;
+  }
+  p{
+      color: #818181;; 
+    }
+  ul{
+      list-style-type: none;
+  }
+  h1{
+      padding:20px;
+  }
+  /* Start of Nav Section*/
+  .Navbar-ul{
+      visibility: hidden;
+  }
+  .bg-img{
+    background-image: url(./components/images/child.jpg);
+    
+  
+    background-size: cover;
+  
+  }
+  .Hello{
+      color:#febc39;
+      font-size: 1em;
+  }
+  
+  .inbetween{
+      color: #febc39;
+  }
+  .works{
+      all:unset;
+          display:inline-block;
+          font-size:0.70em;
+          background-color: black;
+          padding: 1.10em 3em;
+          color:white;
+          margin-left: 0.60em;
+          font-weight: 600;
+          box-sizing: border-box;
+          text-decoration: none;
+          border-radius:2em;
+          border:0.4px solid white;
+          
+          
+        }
+        .hire{
+          all:unset;
+          display:inline-block;
+          background-color: #ffbd39;
+          color:black;
+          padding: 1.3em 3em;
+          font-size:0.70em;
+          font-weight: 600;
+          box-sizing: border-box;
+          border-radius:2em;
+          border:0.4px solid black;
+        }
+     /*End of Nav Section*/
+     /*Start of About Section*/
+     .about_me{
+    
+      
+      
+      text-align: center;
+    }
+    
+    /*end of about Section*/
+    /*start of Resume Section*/
+  .Resume{
+   
+     
+      
+  }
+  .resumeCard{
+      background-color: #1a1a1a;
+     margin-bottom:10px;
+     border-radius:10%;
+     text-align: left;
+  }
+  .resumeWrapper{
+      padding: 50px;
+  }
+  .innerCard{
+      padding:30px;
+  }
+  .resumeHeader{
+      color: white;
+    }
+    .subtitle{
+      color:#818181;
+    }
+    
+    .year{
+      font-size:18px ;
+      font-weight: 900;
+      color:#ffbd39;
+    }
+    /*End of Resume Styling*/
+    
+    
+    ul{
+      padding: 0;
+      margin: 0;
+    }
+    .resume-links{
+      color:#818181;
+      font-size: 15px;
+      
+     
+    }
+    .resume-para{
+      color:#818181;
+    }
+    .Contact-Submit{
+      margin: 15px;
+     
+      width:150px;
+      height: 40px;
+      border-radius: 5%;
+      outline: none;
+      cursor:pointer;
+      margin-left: 700px ;
+    }
+    .download{
+      margin:1rem;
+      padding: 1em 1em;
+      font-size: 20px;
+      color:black;
+      border:1px solid #f0b236;
+      box-sizing: border-box;
+      background-color: #f0b236;
+      border-radius: 2em;
+    }
+  .downloadBtn{
+    text-align:center;
+  }
+   
+    /*end of Resume Section*/
+    
+  
+    /*End of Styling project*/
+    /*Contact Styling*/
+    .contact_me{
+      background-color: black;
+      color:white;
+     
+      
+      text-align: center;
+    }
+    .contactLogs{
+     
+      padding: 60px;
+      
+    }
+    .map_form{
+      
+      background-color: black;
+      margin-top: 12px;
+      margin-bottom: 50px;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+    .map{
+      background-color: burlywood;
+      width: 100%;
+    }
+    .form{
+     background-color: white;
+     width:100%;
+     
+    }
+    .fas{
+      color:#f0b236;
+      font-size: 50px;
+    }
+    input{
+      width:300px;
+      padding: 15px;
+      margin-top: 15px;
+    }
+    textarea{
+      margin-top: 15px;
+    }
+    .submit{
+      margin: 15px;
+      background-color: #f0b236;
+      color:black;
+    border:1px solid #f0b236;
+      width:150px;
+      height: 40px;
+      border-radius: 5%;
+      outline: none;
+      cursor:pointer;
+    }
+  
+    /*End of Contact Styling*/
+  
+   

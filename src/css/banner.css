@@ -1,0 +1,18 @@
+.Banner{
+    background-image: url(../components//images/canyon-1740973_1920.jpg);
+    background-size: 100% 100%;
+    width:100vw;
+    height:30vh;
+    margin-top:10vh;
+    opacity: 0.7;
+    
+    text-align: center;
+}
+.info{
+    padding: 100px;
+    
+    color:white;
+}
+.letter{
+    color:#cf9a31;
+}

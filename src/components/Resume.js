@@ -3,7 +3,8 @@ import ResumeCard from "./ResumeCard";
 import skills from "../DataLayer/skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import "../css/resume.css";
+import Banner from "./Banner";
+/*import "../css/resume.css";*/
 
 const Resume = (props) => {
   const [state] = useState(skills);
@@ -16,7 +17,7 @@ const Resume = (props) => {
   return (
     <div className="Resume">
       <h1 className="mainHeading">Resume</h1>
-      <p>
+      <p className="Paragraph">
         A small river named Duden flows by their place and supplies it with the
         necessary regelialia. It is a paradisematic country, in which roasted
         parts of sentences fly into your mouth.
@@ -28,7 +29,9 @@ const Resume = (props) => {
             <ResumeCard key={experience.header} {...experience} />
           ))}
       </div>
-      <button className="Contact-Submit">DOWNLOAD CV</button>
+      <div className="downloadBtn">
+        <button className="download">DOWNLOAD CV</button>
+      </div>
 
       <Projects projects={projects} />
 
