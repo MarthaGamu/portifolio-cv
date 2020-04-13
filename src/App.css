@@ -6,6 +6,9 @@
     box-sizing: border-box;
     line-height: 1.3;
 }
+body{
+    background-color: #f8fdf7;
+}
 
 .header{
     display:flex;
@@ -32,7 +35,7 @@ nav{
     
 }
 .bg-img{
-    background-color: #eaeef4/*#f8fdf7*/;
+    background-color:#f8fdf7;/*#eaeef4*/
     border-radius: 2px solid red;
     
 }
@@ -125,4 +128,32 @@ color:#0e1f20;
         margin: 0 auto;
        
     }
+}
+/*****************************************ABOUT US************/
+.aboutWrapper{
+    width:100vw;
+    height:300px;
+   
+    margin-top:10px;
+    background-color: #00adb3;
+}
+.about_me{
+
+    width:50vw;
+    height: 300px;
+    margin: 5px auto;
+    
+
+}
+.about-content{
+    padding:10px 20px 10px 20px;
+    
+}
+.mainHeading{
+    padding: 10px;
+text-align: center;
+color:white;
+}
+.content{
+    color:white;   
 }
