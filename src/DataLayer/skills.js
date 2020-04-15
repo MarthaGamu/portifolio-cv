@@ -12,11 +12,10 @@ export default {
       header: "Connect College",
       subtitle: "IT Support Specialist",
       listExtras: [
-        "Mantained Website of the organisation",
-        "Responsible for creating email and domain user accounts for new users",
-        "Perfomed periodic backups and maintenance of key systems",
-        "Managed system updates and scanning for PCI compliance",
-        "Mantained and supported remote clients",
+        "Mantained Website of the organisation.",
+        "Responsible for creating email and domain user accounts for new users.",
+        "Perfomed periodic backups and maintenance of key systems.",
+        "Managed system updates and scanning for PCI compliance.",
       ],
     },
     {
@@ -38,19 +37,19 @@ export default {
     {
       img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
-      information: "hie alex",
+      information: "First Project:Banking System ",
       link: "#",
     },
     {
       img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
-      information: "hie alex",
+      information: "Second Project :Ecommerce System",
       link: "#",
     },
     {
       img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
-      information: "hie alex",
+      information: "Third Project:Ecommerce Website",
       link: "#",
     },
   ],

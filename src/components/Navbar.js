@@ -1,14 +1,12 @@
 import React from "react";
 /*import "../css/navbar.css";*/
 /*import child from "./images/child.jpg";*/
-import laptop from "./images/gamuc.png";
+/*import laptop from "./images/child.jpg";*/
 function Navbar() {
   return (
     <div className="bg-img">
       <div className="header">
-        <div className="nameTag">
-          <h1>Myself </h1>
-        </div>
+        <div className="nameTag">martha</div>
 
         <nav>
           <ul className="Navbar-ul">
@@ -24,16 +22,16 @@ function Navbar() {
         <div className="Overlay">
           <div className="Overlay-Info">
             <h5 className="Welcome">Welcome!</h5>
-            <h1 className="title"> I'm Martha </h1>
-            <h3 className="nav-title">Front End Website Developer</h3>
+            <h1 className="title"> I'm Martha Mandizvidza</h1>
+            <h3 className="nav-title">Front End Developer</h3>
             <div className="buttonWrapper">
               <button className="hire">HIRE ME</button>
               <button className="works">MY WORKS</button>
             </div>
           </div>
-          <div className="Overlay-Image">
+          {/*<div className="Overlay-Image">
             <img src={laptop} alt="laptop" />
-          </div>
+  </div>*/}
         </div>
       </div>
     </div>

@@ -16,13 +16,12 @@ const Resume = (props) => {
 
   return (
     <div className="Resume">
-      <h1 className="mainHeading">Resume</h1>
-      <p className="Paragraph">
-        A small river named Duden flows by their place and supplies it with the
-        necessary regelialia. It is a paradisematic country, in which roasted
-        parts of sentences fly into your mouth.
-      </p>
-
+      <div className="resume-content">
+        <h1 className="mainHeading">Resume</h1>
+        <p className="Paragraph">
+          A small river named Duden flows by their place and supplies it with.
+        </p>
+      </div>
       <div className="resumeWrapper">
         {experiences.length > 0 &&
           experiences.map((experience) => (

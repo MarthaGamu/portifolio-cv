@@ -4,9 +4,9 @@ import React from "react";
 function About() {
   return (
     <div className="aboutWrapper">
+      <h1 className="mainHeading">About Me</h1>
       <div className="about_me">
         <div className="about-content">
-          <h1 className="mainHeading">About Me</h1>
           <p className="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -16,6 +16,11 @@ function About() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <div className="social-links">
+            <i class="fab  fa fa-facebook-f"></i>
+            <i class="fab fa fa-github"></i>
+            <i class="far fa fa-envelope"></i>
+          </div>
         </div>
       </div>
     </div>

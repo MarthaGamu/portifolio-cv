@@ -4,18 +4,22 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    line-height: 1.3;
+    line-height: 1.8rem;
 }
 body{
-    background-color: #f8fdf7;
+    background-color: black;
 }
 
 .header{
     display:flex;
     align-items: center;
-    background-color: #32698b;
+    background-color: black;
     color:white;
-    border-bottom: 3px solid #00adb3;
+    opacity:0.9;
+    position:fixed;
+    top:0px;
+    width: 100%;
+    z-index:1;
     
 }
 .nameTag{
@@ -32,17 +36,21 @@ nav{
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
+    font-weight: bold;
     
 }
 .bg-img{
     background-color:#f8fdf7;/*#eaeef4*/
     border-radius: 2px solid red;
+    height: 600px;
+    background-image: url(./components//images/child.jpg);
+    background-size:cover ;
+    opacity:0.8;
     
 }
-/*.overlayContainer{
-    width:80%;
-    margin:0 auto;
-}*/
+.overlayContainer{
+   margin-top: 100px;
+}
 .Overlay{
     display: flex;
     color:black;
@@ -51,7 +59,7 @@ nav{
 
 .Overlay-Info{
     flex:1;
-    height: 800px;
+    
     padding: 10rem 3rem ;
      margin-left: 3rem;
     border-radius: 2px solid green;
@@ -61,33 +69,38 @@ nav{
 
 .Overlay-Image{
 flex:1;
-height: 800px;
+height: 20px;
+
+
  
+}
+
+.Overlay-Image img{
+    position: absolute;
+    height: 29rem;
+    object-fit: contain;
+    margin-top: 50px;
 }
 .title{
  padding: 10px;
- font-size: 3rem;
-color:#0e1f20;
+ font-size: 2.5rem;
+color:white;
 }
 .nav-title{
     padding: 10px;
   font-size: 1.5rem;
-}
-.hire{
-    margin-left: 1rem;
+  color:white;
 }
 
 
-.Welcome{
-    padding: 10px;
-    font-size: 1rem;
-}
+
+
 .works{
     all:unset;
         display:inline-block;
         font-size:0.70em;
-        background-color: #32698b;
-        padding: 1.10em 3em;
+        background-color: black;
+        padding: 1em 3.5em;
         color:white;
         margin-left: 0.60em;
         font-weight: 600;
@@ -101,9 +114,9 @@ color:#0e1f20;
       .hire{
         all:unset;
         display:inline-block;
-        background-color: #00adb3;
+        background-color: #ffbd39;
         color:white;
-        padding: 1.3em 3em;
+        padding: 1em 3.5em;
         font-size:0.70em;
         font-weight: 600;
         box-sizing: border-box;
@@ -114,8 +127,8 @@ color:#0e1f20;
     margin-top:15px;
 }
 .Welcome{
-    color:#32698b;
-    font-size: 1rem;
+    color:#ffbd39;
+    font-size: 1.5rem;
 }   
 
 @media screen and (min-width:1900px){
@@ -132,28 +145,220 @@ color:#0e1f20;
 /*****************************************ABOUT US************/
 .aboutWrapper{
     width:100vw;
-    height:300px;
-   
-    margin-top:10px;
-    background-color: #00adb3;
+    height:430px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+}
+.content{
+    margin-top: 20px;
 }
 .about_me{
 
     width:50vw;
-    height: 300px;
-    margin: 5px auto;
-    
+    height: 250px;
+    background-color: #1a1a1a;
+    margin: auto;
+    border-radius: 2%;
+    position:relative;
+    top:40px;
 
 }
 .about-content{
     padding:10px 20px 10px 20px;
+    text-align: center;
+    
     
 }
 .mainHeading{
-    padding: 10px;
-text-align: center;
+    padding: 50px;
 color:white;
 }
 .content{
-    color:white;   
+    color:#818181;   
 }
+.social-links{
+  padding: 10px;
+  color:#ffbd39;
+}
+.social-links i{
+  padding: 10px;
+}
+/****************************RESUME**********************/
+.Resume{
+    width: 100vw;
+}
+.resume-content{
+    width:50vw;
+    color:white;
+    margin: auto;
+    text-align: center;
+}
+.resumeCard{
+    color:white;
+}
+.resumeWrapper{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-gap: 10px;
+    
+    justify-content: center;
+    
+    
+}
+      
+.innerCard{
+    
+    height: 300px;
+    padding:2rem;
+    margin:auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+.download{
+    margin:3rem;
+    padding: 1.2em 2em;
+    font-size: 15px;
+    color:black;
+    border:1px solid #f0b236;
+    box-sizing: border-box;
+    background-color: #f0b236;
+    border-radius: 2em;
+  }
+.downloadBtn{
+  text-align:center;
+}
+.resumeHeader{
+    color: white;
+  }
+  .subtitle{
+    color:#818181;
+  }
+  .Paragraph{
+    color:#818181;
+    font-size: 18px;
+  }
+  .year{
+    font-size:20px ;
+    font-weight: 900;
+    color:#ffbd39;
+    padding-bottom: 10px;
+  }
+  /*End of Resume Styling*/
+  
+  
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .resume-links{
+    color:#818181;
+    font-size: 16px;
+
+    
+   
+  }
+  .resume-para{
+    color:white;
+  }
+  /***************PROJECTS***************************/
+  .projects{
+      text-align: center;
+  }
+  .ProjectWrapper{
+      display:flex;
+      justify-content: center;
+  }
+  .ProjectWrapper img{
+      width:330px;
+      height:250px;
+      margin-left: 10px;
+  }
+  .cardProject{
+      color:#818181;
+  }
+
+
+  /**********************CONTACT***********************/
+  .mainHeading{
+      text-align: center;
+      margin-top: 10px;
+  }
+ 
+  .contactLogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      color:      #818181;
+      
+      margin: 0 auto;
+      width:50vw;
+      height:150px;
+      font-size: 20px;
+      
+    
+      background-color: #1a1a1a;
+      border:5px solid white;
+      margin-bottom:20px;
+  }
+  .map_form{
+  
+    display:flex;
+    justify-content: center;
+    background-color: black;
+   
+    
+  }
+  .map{
+    background-color: burlywood;
+    width:600px;
+    height: 500px;
+    
+  }
+  .form{
+   background-color: white;
+   width:600px;
+    height: 500px;
+  }
+  .fas{
+    color:#f0b236;
+    font-size: 50px;
+  }
+  input{
+    width:300px;
+    padding: 8px;
+    margin-top: 15px;
+  }
+  textarea{
+    width:300px;
+    height:100px;
+    margin-top: 15px;
+  }
+  .submit{
+    margin: 15px;
+    background-color: #f0b236;
+    color:black;
+  border:1px solid #f0b236;
+    width:150px;
+    height: 40px;
+    border-radius: 5%;
+    outline: none;
+    cursor:pointer;
+  }
+  .innerForm{
+    width: 400px;
+    margin:  50px auto;
+  }
+  /***************************FOOTER***********************/
+  .footer{
+    margin-top: 50px;
+   background-color: #1a1a1a;
+   color:white;
+   height: 100px;
+   text-align: center;
+ }
+ .copyright{
+ margin-top:20px;
+ }
