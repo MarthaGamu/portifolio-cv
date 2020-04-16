@@ -27,6 +27,9 @@ body{
     text-align: center;
     padding:1rem;
 }
+.name{
+  color:#ffbd39;
+}
 nav{
     flex:2;
     text-transform: uppercase;
@@ -65,6 +68,9 @@ nav{
     border-radius: 2px solid green;
   
    
+}
+.title{
+  padding-top: 100px;
 }
 
 .Overlay-Image{
@@ -136,11 +142,7 @@ color:white;
         font-size: 20px;
     }
    
-    .overlayContainer{
-        width: 65%;
-        margin: 0 auto;
-       
-    }
+    
 }
 /*****************************************ABOUT US************/
 .aboutWrapper{
@@ -224,7 +226,7 @@ color:white;
     border:1px solid #f0b236;
     box-sizing: border-box;
     background-color: #f0b236;
-    border-radius: 2em;
+    border-radius: 0.5em;
   }
 .downloadBtn{
   text-align:center;
@@ -270,6 +272,8 @@ color:white;
   .ProjectWrapper{
       display:flex;
       justify-content: center;
+      
+      
   }
   .ProjectWrapper img{
       width:330px;
@@ -277,14 +281,26 @@ color:white;
       margin-left: 10px;
   }
   .cardProject{
+   
+    height:400px;
+    margin-left: 5px;
       color:#818181;
   }
-
-
+.projects p{
+  color:#818181;
+}
+.cardProject h4{
+  color:white;
+}
   /**********************CONTACT***********************/
   .mainHeading{
       text-align: center;
       margin-top: 10px;
+  }
+  .contact_me{
+     background-color: #1a1a1a;
+     margin-top: 50px;
+     
   }
  
   .contactLogs{
@@ -294,12 +310,12 @@ color:white;
       color:      #818181;
       
       margin: 0 auto;
-      width:50vw;
+      width:1000px;
       height:150px;
       font-size: 20px;
       
     
-      background-color: #1a1a1a;
+      
       border:5px solid white;
       margin-bottom:20px;
   }
@@ -307,32 +323,40 @@ color:white;
   
     display:flex;
     justify-content: center;
-    background-color: black;
+    align-items: center;
    
     
   }
   .map{
-    background-color: burlywood;
-    width:600px;
+  
+    color:#818181;
+    
+    width:400px;
     height: 500px;
+ 
     
   }
+  .mapContainer{
+    margin-top: 50px;
+    margin-left: 10px;
+  }
   .form{
-   background-color: white;
-   width:600px;
+   
+   width:500px;
     height: 500px;
+ 
   }
   .fas{
     color:#f0b236;
     font-size: 50px;
   }
   input{
-    width:300px;
+    width:500px;
     padding: 8px;
     margin-top: 15px;
   }
   textarea{
-    width:300px;
+    width:500px;
     height:100px;
     margin-top: 15px;
   }
@@ -351,10 +375,29 @@ color:white;
     width: 400px;
     margin:  50px auto;
   }
+   .downloadBtny{
+    margin:3rem;
+    padding: 1.2em 2em;
+    font-size: 15px;
+    color:black;
+    border:1px solid #f0b236;
+    box-sizing: border-box;
+    background-color: #f0b236;
+    border-radius: 0.5em;
+  }
+  
+  .mapContainer p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .mapContainer label{
+    color:white;
+  }
+  
   /***************************FOOTER***********************/
   .footer{
     margin-top: 50px;
-   background-color: #1a1a1a;
+
    color:white;
    height: 100px;
    text-align: center;

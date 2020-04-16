@@ -4,9 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <span className="copyright">
-        Copyright 2020 All rights reserved/Designed by Martha G Mandizvidza
-      </span>
+      <span className="copyright">&copy; 2020 by Martha G Mandizvidza.</span>
     </div>
   );
 }

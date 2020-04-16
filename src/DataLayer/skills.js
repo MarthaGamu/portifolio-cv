@@ -37,20 +37,23 @@ export default {
     {
       img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
-      information: "First Project:Banking System ",
+      information: "Banking System ",
       link: "#",
+      heading: "First Project:",
     },
     {
       img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
-      information: "Second Project :Ecommerce System",
+      information: "Ecommerce System",
       link: "#",
+      heading: "Second Project:",
     },
     {
       img: require("../components/images/projectImg.jpg"),
       title: "Ecommerce site",
-      information: "Third Project:Ecommerce Website",
+      information: "Ecommerce Website",
       link: "#",
+      heading: "Third Project:",
     },
   ],
 };

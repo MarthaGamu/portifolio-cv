@@ -22,7 +22,10 @@ function Navbar() {
         <div className="Overlay">
           <div className="Overlay-Info">
             <h5 className="Welcome">Welcome!</h5>
-            <h1 className="title"> I'm Martha Mandizvidza</h1>
+            <h1 className="title">
+              {" "}
+              I'm <span className="name">Martha Mandizvidza</span>
+            </h1>
             <h3 className="nav-title">Front End Developer</h3>
             <div className="buttonWrapper">
               <button className="hire">HIRE ME</button>
