@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <div className="bg-img">
       <div className="header">
-        <div className="nameTag">martha</div>
+        <div className="nameTag">
+          <strong>Martha</strong>
+        </div>
 
         <nav>
           <ul className="Navbar-ul">

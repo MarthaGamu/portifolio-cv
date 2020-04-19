@@ -29,6 +29,7 @@ body{
 }
 .name{
   color:#ffbd39;
+  font-size: 2.5rem;
 }
 nav{
     flex:2;
@@ -98,7 +99,9 @@ color:white;
   color:white;
 }
 
-
+.nameTag{
+  font-size: 1.5rem;
+}
 
 
 .works{
@@ -145,30 +148,38 @@ color:white;
     
 }
 /*****************************************ABOUT US************/
+.aboutContainer{
+  margin-top:0px;
+
+}
+.about-skills{
+  display: flex;
+  
+}
+.web{
+  color:white;
+}
 .aboutWrapper{
     width:100vw;
-    height:430px;
-    text-align: center;
-    margin-top: 10px;
-    background-color: black;
+    
+    
+    flex:1;
 }
 .content{
     margin-top: 20px;
 }
 .about_me{
 
-    width:50vw;
+    
     height: 250px;
-    background-color: #1a1a1a;
-    margin: auto;
+
     border-radius: 2%;
-    position:relative;
-    top:40px;
+   
 
 }
 .about-content{
     padding:10px 20px 10px 20px;
-    text-align: center;
+    
     
     
 }
@@ -186,6 +197,88 @@ color:white;
 .social-links i{
   padding: 10px;
 }
+/*********************MY SKILLS***********************/
+.myskills{
+  color:#818181;
+ 
+  margin-top: 15px;
+  flex:1;
+}
+.skill-container{
+  width:400px;
+  
+ margin: auto;
+}
+.myskills li{
+  list-style-type: none;
+}
+
+.bar{
+  background-color: #2b2b2b;
+  display: block;
+  height:8px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 5px;
+ 
+
+}
+.bar span{
+  height: 8px;
+  float: left;
+  background-color: #ffbd39;
+
+}
+.html{
+  width:90%;
+  animation: html 2s;
+}
+.css3{
+  width:65%;
+  animation: css3 2s;
+}
+.javascript{
+  width:90%;
+  animation: javascript 2s;
+}
+
+.react{
+  width:65%;
+  animation:react 2s;
+}
+@keyframes html{
+0%{
+  width:0%;
+}
+100%{
+  width: 90%;
+}
+}
+@keyframes css3{
+  0%{
+    width:0%;
+  }
+  100%{
+    width: 65%;
+  }
+  }
+  @keyframes javascript{
+    0%{
+      width:0%;
+    }
+    100%{
+      width: 90%;
+    }
+    }
+    @keyframes react{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:65%;
+      }
+      }
+
 /****************************RESUME**********************/
 .Resume{
     width: 100vw;
@@ -220,7 +313,17 @@ color:white;
 }
 .download{
     margin:3rem;
-    padding: 1.2em 2em;
+    padding: 0.7em 1.5em;
+    font-size: 15px;
+    color:black;
+    border:1px solid #f0b236;
+    box-sizing: border-box;
+    background-color: #f0b236;
+    border-radius: 0.5em;
+  }
+  .download-cv{
+    
+    padding: 0.7em 1.5em;
     font-size: 15px;
     color:black;
     border:1px solid #f0b236;
@@ -285,7 +388,34 @@ color:white;
     height:400px;
     margin-left: 5px;
       color:#818181;
+      position: relative;
   }
+  .cardProject:hover img{
+    opacity: 0.3;
+  }
+  
+  .cardProject:hover .project-text{
+    opacity: 1;
+  }
+ 
+  .project-text{
+      background-color: #1a1a1a;
+      transition: .5s ease;
+      width: 200px;
+      padding: 1rem 1.5rem;
+      opacity: 0;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    
+  }
+  .project-text h4{
+    color:#f0b236;
+  }
+ 
 .projects p{
   color:#818181;
 }
@@ -354,17 +484,22 @@ color:white;
     width:500px;
     padding: 8px;
     margin-top: 15px;
+    background-color: #333333;
+    border: none;
   }
   textarea{
     width:500px;
     height:100px;
     margin-top: 15px;
+    
+    background-color: #333333;
+    border: none;
   }
   .submit{
     margin: 15px;
-    background-color: #f0b236;
-    color:black;
-  border:1px solid #f0b236;
+    background-color: #000000;
+    color:#333333;
+ 
     width:150px;
     height: 40px;
     border-radius: 5%;
@@ -396,12 +531,21 @@ color:white;
   
   /***************************FOOTER***********************/
   .footer{
-    margin-top: 50px;
-
+    display:flex;
+  
    color:white;
-   height: 100px;
-   text-align: center;
+   
+  
+  
  }
  .copyright{
  margin-top:20px;
  }
+ .social{
+   margin-left: 700px;
+ }
+ .flink{
+   color:white;
+   margin-left: 10px;
+ }
+ 

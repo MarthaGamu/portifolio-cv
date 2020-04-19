@@ -9,8 +9,11 @@ const Projects = ({ projects }) => {
         {projects.map((project) => (
           <div className="cardProject">
             <img src={project.img} alt="My projects" />
-            <h4>{project.heading}</h4>
-            <p>{project.information}</p>
+
+            <div className="project-text">
+              <h4 style={{ color: "#f0b236" }}>{project.heading}</h4>
+              <p>{project.information}</p>
+            </div>
           </div>
         ))}
       </div>

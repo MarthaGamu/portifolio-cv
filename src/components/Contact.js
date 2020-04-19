@@ -34,12 +34,6 @@ function Contact() {
               <strong>Mobile:</strong>
             </label>
             <p>07751099803</p>
-            <div className="social-links">
-              <i class="fab  fa fa-facebook-f"></i>
-              <i class="fab fa fa-github"></i>
-              <i class="far fa fa-envelope"></i>
-              <i class="fab  fa fa-linkedin"></i>
-            </div>
           </div>
         </div>
 
