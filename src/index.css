@@ -4,6 +4,14 @@
   src: url('../src/static/fonts/AbhayaLibre-Regular.ttf');
  
 }
+@font-face {
+  font-family: 'Courgette';
+  
+  src: url('../src/static/Courgette-Regular.ttf');
+}
+
+
+
 @font-face{
   font-family:'PTSansCaption' ;
   src: url('../src/static/fonts/PTSansCaption-Bold.ttf');

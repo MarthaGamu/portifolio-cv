@@ -3,8 +3,12 @@ import React from "react";
 
 function About() {
   return (
-    <div className="aboutContainer">
-      <h1 className="mainHeading">About Me</h1>
+    <div className="aboutContainer" id="About">
+      <h1 className="mainHeading">ABOUT ME</h1>
+      <div className="horizontal-line">
+        <div className="top"></div>
+        <div className="bottom"></div>
+      </div>
       <div className="about-skills">
         <div className="aboutWrapper">
           <div className="about_me">
@@ -17,9 +21,28 @@ function About() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <div className="social-links">
-                <i class="fab  fa fa-facebook-f"></i>
-                <i class="fab  fa fa-github"></i>
-                <i class="fab fa fa-linkedin"></i>
+                <a
+                  href="https://www.facebook.com/marthag.mandizvidza/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab  fa fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://github.com/MarthaGamu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {" "}
+                  <i class="fab  fa fa-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/martha-g-mandizvidza-131956131/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -33,7 +56,7 @@ function About() {
               </span>
             </li>
 
-            <h3>JAVASRIPT</h3>
+            <h3>JAVASCRIPT</h3>
             <li>
               <span className="bar">
                 <span className="javascript"></span>

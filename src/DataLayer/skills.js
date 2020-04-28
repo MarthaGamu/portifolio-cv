@@ -35,21 +35,44 @@ export default {
   ],
   projects: [
     {
-      img: require("../components/images/projectImg.jpg"),
+      img: require("../components/images/apple.jpg"),
       title: "Ecommerce site",
       information: "Banking System ",
       link: "#",
       heading: "First Project:",
     },
     {
-      img: require("../components/images/projectImg.jpg"),
+      img: require("../components/images/apple.jpg"),
       title: "Ecommerce site",
       information: "Ecommerce System",
       link: "#",
       heading: "Second Project:",
     },
     {
-      img: require("../components/images/projectImg.jpg"),
+      img: require("../components/images/diary.jpg"),
+      title: "Ecommerce site",
+      information: "Banking System ",
+      link: "#",
+      heading: "First Project:",
+    },
+    {
+      img: require("../components/images/first.jpg"),
+      title: "Ecommerce site",
+      information: "Ecommerce System",
+      link: "#",
+      heading: "Second Project:",
+    },
+  ],
+  project: [
+    {
+      img: require("../components/images/pexels.jpg"),
+      title: "Ecommerce site",
+      information: "Ecommerce Website",
+      link: "#",
+      heading: "Third Project:",
+    },
+    {
+      img: require("../components/images/iphone.jpg"),
       title: "Ecommerce site",
       information: "Ecommerce Website",
       link: "#",
