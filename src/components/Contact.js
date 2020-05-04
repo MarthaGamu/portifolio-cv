@@ -18,7 +18,8 @@ function Contact() {
             <i class="fas fa fa-map-marker"></i>
           </div>
           <p>
-            62 St John's Rd Sevenoaks,Kent
+            62 St John's Rd <br />
+            Sevenoaks,Kent
             <br />
             United Kingdom
           </p>
@@ -33,7 +34,11 @@ function Contact() {
           <div className="icon">
             <i class="far fa fa-envelope"></i>
           </div>
-          <p>marthagmandizvidza60@gmail.com</p>
+          <p>
+            marthagmandizvidza60
+            <br />
+            @gmail.com
+          </p>
         </div>
         <div className="iconWrapper">
           <div className="icon">

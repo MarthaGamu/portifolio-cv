@@ -4,44 +4,6 @@ import apple from "./images/apple.jpg";
 import final from "./images/final.jpg";
 import { Link } from "react-router-dom";
 
-/*function Navbar() {
-  return (
-    <div>
-      <div className="header">
-        <div className="nameTag">
-          <strong>Martha</strong>
-        </div>
-        <nav>
-          <ul className="Navbar-ul">
-            <li className="Navbar-li">Home</li>
-            <li className="Navbar-li">About</li>
-            <li className="Navbar-li">Resume</li>
-            <li className="Navbar-li">Project</li>
-            <li className="Navbar-li">Contact</li>
-          </ul>
-        </nav>
-      </div>
-      <div className="bg-img">
-        <div className="overlayContainer">
-          <div className="Overlay">
-            <div className="Overlay-Info">
-              <h4 className="Welcome">HELLO,MY NAME IS</h4>
-              <h1 className="title">Martha Mandizvidza</h1>
-              <h3 className="nav-title">Front End Developer</h3>
-
-              <div className="buttonWrapper">
-                <button className="works">MY WORKS</button>
-              </div>
-            </div>
-            {/*<div className="Overlay-Image">
-            <img src={laptop} alt="laptop" />
-  </div>*
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}*/
 function Navbar() {
   return (
     <div className="navbar-container" id="Home">
