@@ -6,7 +6,12 @@ export default function Projects() {
   const { projects } = state;
 
   return (
-    <div className="projectContainer" id="Project">
+    <div
+      className="projectContainer"
+      id="Project"
+      data-aos="slide-up"
+      data-aos-duration="1"
+    >
       <div className="projects">
         <h1 className="mainHeading">MY PROJECTS</h1>
         <div className="horizontal-line">
@@ -14,6 +19,7 @@ export default function Projects() {
           <div className="bottom"></div>
         </div>
       </div>
+
       <div className="ProjectWrapper">
         {projects.map((project) => (
           <div className="cardProjects">
@@ -21,7 +27,9 @@ export default function Projects() {
               <ul>
                 <li className="cards">
                   <img src={project.img} alt="My projects" className="img" />
-                  <span className="projectHeading">{project.heading}</span>
+                  <span className="projectHeading">
+                    <strong>{project.heading}</strong>
+                  </span>
                 </li>
               </ul>
             </div>

@@ -3,7 +3,12 @@ import React from "react";
 /*import "../css/contact.css";*/
 function Contact() {
   return (
-    <div className="contact_me" id="Contact">
+    <div
+      className="contact_me"
+      id="Contact"
+      data-aos="slide-up"
+      data-aos-duration="1"
+    >
       <div className="contact-wrapper">
         <h1 className="mainHeading">CONTACT ME</h1>
         <div className="horizontal-line">
@@ -16,35 +21,33 @@ function Contact() {
         <div className="iconWrapper">
           <div className="icon">
             <i class="fas fa fa-map-marker"></i>
+            <p>
+              62 St John's Rd Sevenoaks,Kent <br />
+              United Kingdom
+            </p>
           </div>
-          <p>
-            62 St John's Rd <br />
-            Sevenoaks,Kent
-            <br />
-            United Kingdom
-          </p>
         </div>
         <div className="iconWrapper">
           <div className="icon">
             <i class="fas fa fa-phone"></i>
+            <p>07751099803</p>
           </div>
-          <p>07751099803</p>
         </div>
         <div className="iconWrapper">
           <div className="icon">
             <i class="far fa fa-envelope"></i>
+            <p>
+              marthagmandizvidza60
+              <br />
+              @gmail.com
+            </p>
           </div>
-          <p>
-            marthagmandizvidza60
-            <br />
-            @gmail.com
-          </p>
         </div>
         <div className="iconWrapper">
           <div className="icon">
             <i class="fas  fa fa-globe"></i>
+            <p>marthagma.co.uk</p>
           </div>
-          <p>marthagma</p>
         </div>
       </div>
       <div className="map_form">

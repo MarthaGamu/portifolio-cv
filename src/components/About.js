@@ -1,9 +1,15 @@
 import React from "react";
+
 /*import "../css/about.css";*/
 
 function About() {
   return (
-    <div className="aboutContainer" id="About">
+    <div
+      className="aboutContainer"
+      id="About"
+      data-aos="slide-up"
+      data-aos-duration="1"
+    >
       <h1 className="mainHeading">ABOUT ME</h1>
       <div className="horizontal-line">
         <div className="top"></div>

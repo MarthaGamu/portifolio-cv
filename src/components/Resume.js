@@ -16,7 +16,7 @@ const Resume = (props) => {
   }
 
   return (
-    <div>
+    <div data-aos="slide-up" data-aos-duration="1">
       <div className="Resume" id="Resume">
         <div className="resume-content">
           <h1 className="mainHeading">MY RESUME</h1>

@@ -43,8 +43,10 @@ function Navbar() {
 
           <div className="centerItems">
             <div className="itemContainer">
-              <div className="image">
-                <img src={final} alt="final" />
+              <div className="imageContainer">
+                <div className="image">
+                  <img src={final} alt="final" />
+                </div>
               </div>
               <div className="itemWrapper">
                 <h1 className="firstname">I'm Martha G Mandizvidza</h1>
