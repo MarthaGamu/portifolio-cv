@@ -26,10 +26,17 @@ export default function Projects() {
             <div className="innerProject">
               <ul>
                 <li className="cards">
-                  <img src={project.img} alt="My projects" className="img" />
-                  <span className="projectHeading">
-                    <strong>{project.heading}</strong>
-                  </span>
+                  <div className="img">
+                    <img src={project.img} alt="My projects" />
+                  </div>
+                  <div className="Content">
+                    <h1 className="projectHeading">
+                      <strong>{project.heading}</strong>
+                    </h1>
+                    <p className="projectHeading">
+                      Hello africa .How are the animals
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>

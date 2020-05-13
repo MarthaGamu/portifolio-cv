@@ -53,8 +53,20 @@ function Navbar() {
                 <p>
                   <span className="frontend">Frontend Developer.</span>
                 </p>
-                <button className="btnCV"> DOWNLOAD CV</button>
-                <button className="hire">HIRE ME</button>
+                <button
+                  className="btnCV"
+                  data-aos="slide-right"
+                  data-aos-duration="1"
+                >
+                  DOWNLOAD CV
+                </button>
+                <button
+                  className="hire"
+                  data-aos="slide-left"
+                  data-aos-duration="1"
+                >
+                  HIRE ME
+                </button>
               </div>
             </div>
           </div>

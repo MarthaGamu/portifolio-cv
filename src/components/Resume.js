@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import ResumeCard from "./ResumeCard";
 import skills from "../DataLayer/skills";
 import Projects from "./Projects";
-import Contact from "./Contact";
+/*import Contact from "./Contact";*/
 import About from "./About";
 import Navbar from "./Navbar";
+import Contacty from "./Contacty";
 /*import "../css/resume.css";*/
 
 const Resume = (props) => {
@@ -37,7 +38,7 @@ const Resume = (props) => {
 
         <Projects projects={projects} />
 
-        <Contact />
+        <Contacty />
       </div>
     </div>
   );
