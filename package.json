@@ -12,8 +12,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-grid-system": "^6.3.0",
+    "react-mailto": "^0.4.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.2.0",
     "swup": "^2.0.9"
   },
   "scripts": {
@@ -32,6 +33,7 @@
       "not op_mini all"
     ],
     "development": [
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
