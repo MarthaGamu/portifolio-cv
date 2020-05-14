@@ -30,7 +30,7 @@ export default {
       year: "2009-2010",
       header: "Advanced Level",
       subtitle: "Hatfield High School",
-      listExtras: ["Subjects:", "Accounting", "Business Studies"],
+      listExtras: ["Subjects:", "Accounting", "Business Studies", "Geography"],
     },
   ],
   projects: [

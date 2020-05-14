@@ -947,6 +947,55 @@ color:black;
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
+*/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+  .itemContainer{
+    
+   padding-top: 12%;
+  
+  }
+  .image{
+    width:20rem; 
+  }
+ 
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
+  .header{
+    padding:0px 10vw 0px 10vw;
+   
+  }
+  .about-skills{
+    padding:0px 10vw 0px 10vw;
+  }
+  .resumeWrapper{
+    padding:0px 25vw 10vw 25vw;
+  }
+  .ProjectWrapper{
+    padding:0px 20vw 5vw 20vw ;
+  }
+  .innerWrapper{
+    width:65vw;
+    margin: auto;
+  
+  }
+  .Form input {
+    width:30vw;
+    margin-bottom: 10px;
+    padding:10px;
+  }
+  .Form textarea{
+    width:30vw;
+    padding:10px 10px 30px;
+  }
+  .innerHeadings{
+    font-size: 18px;
+    padding:5px;
+  }
+  .innerHeadings .info{
+    font-size: 20px;
+    padding: 2px;
+  } 
+ .Details{
+  padding: 60px;
+ }
+ }

@@ -10,37 +10,38 @@ function Navbar() {
       {/*<img src={apple} alt="coding" />*/}
       <div className="topContainer">
         <div className="navContainer">
-          <div className="header">
-            <div className="nameTag">
-              <strong>
-                <a href="#Home">martha</a>
-              </strong>
+          <div className="headerWrapper">
+            <div className="header">
+              <div className="nameTag">
+                <strong>
+                  <a href="#Home">martha</a>
+                </strong>
+              </div>
+              <nav>
+                <ul className="Navbar-ul">
+                  <li className="Navbar-li active">
+                    <a href="#Home">Home</a>
+                  </li>
+
+                  <li className="Navbar-li">
+                    <a href="#About">About</a>
+                  </li>
+
+                  <li className="Navbar-li">
+                    <a href="#Resume">Resume</a>
+                  </li>
+
+                  <li className="Navbar-li">
+                    <a href="#Project">Project</a>
+                  </li>
+
+                  <li className="Navbar-li">
+                    <a href="#Contact">Contact</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <nav>
-              <ul className="Navbar-ul">
-                <li className="Navbar-li active">
-                  <a href="#Home">Home</a>
-                </li>
-
-                <li className="Navbar-li">
-                  <a href="#About">About</a>
-                </li>
-
-                <li className="Navbar-li">
-                  <a href="#Resume">Resume</a>
-                </li>
-
-                <li className="Navbar-li">
-                  <a href="#Project">Project</a>
-                </li>
-
-                <li className="Navbar-li">
-                  <a href="#Contact">Contact</a>
-                </li>
-              </ul>
-            </nav>
           </div>
-
           <div className="centerItems">
             <div className="itemContainer">
               <div className="imageContainer">

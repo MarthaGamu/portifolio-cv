@@ -16,16 +16,20 @@ function Contacty() {
           <div className="Details">
             <div className="address">
               <h5 className="innerHeadings">Address:</h5>
-              <p>62 St John's Rd Sevenoaks</p>
+              <p className="info">
+                62 St John's Rd Sevenoaks,Kent
+                <br />
+                United Kingdom
+              </p>
             </div>
             <div className="email">
               <h5 className="innerHeadings">Email:</h5>
-              <p>marthagmandizvidza60@gmail.com</p>
+              <p className="info"> marthagmandizvidza60@gmail.com</p>
             </div>
 
             <div className="phone">
               <h5 className="innerHeadings">Phone:</h5>
-              <p> +447751099803</p>
+              <p className="info"> +447751099803</p>
             </div>
           </div>
           <div className="Form">
